@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funko_RemorsePeriod__c</fullName>
+    <description>The offset of remorse period based on the selected Sales channel. The default is 20  minutes.</description>
+    <externalId>false</externalId>
+    <formula>IF( SalesChannel.SalesChannelName  = 'FunkoUS', CreatedDate +  ($CustomMetadata.Funko_RemorsePeriod_Setup__mdt.FunkoUS.Remorse_Period_Offset_in_Minutes__c)/24/60, CreatedDate + 20/24/60)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The offset of remorse period based on the selected Sales channel. The default is 20 minutes.</inlineHelpText>
+    <label>RemorsePeriod</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>
