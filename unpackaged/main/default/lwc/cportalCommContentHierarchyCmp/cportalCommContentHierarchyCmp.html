@@ -1,0 +1,20 @@
+<!--
+  @description       : 
+  @author            : Manoj_Goswami
+  @group             : 
+  @last modified on  : 2023-02-23
+  @last modified by  : Manoj_Goswami
+-->
+<template>
+    <div>
+        <lightning-card  title="Communication Content Hierarcy">
+            <lightning-tree-grid
+                columns={gridColumns}
+                data={gridData}
+                key-field="Id"
+                hide-checkbox-column="true"
+                expanded-rows={currentExpandedRows}>
+            </lightning-tree-grid>
+        </lightning-card>
+    </div>
+</template>

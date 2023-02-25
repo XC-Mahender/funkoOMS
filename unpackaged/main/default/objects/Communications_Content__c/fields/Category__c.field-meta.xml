@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>In-Store Events</fullName>
+                <default>false</default>
+                <label>In-Store Events</label>
+            </value>
+            <value>
+                <fullName>Recruitment &amp; Employment</fullName>
+                <default>false</default>
+                <label>Recruitment &amp; Employment</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Promotional Offers</fullName>
+                <default>false</default>
+                <label>Promotional Offers</label>
+            </value>
+            <value>
+                <fullName>Inventory Updates</fullName>
+                <default>false</default>
+                <label>Inventory Updates</label>
+            </value>
+            <value>
+                <fullName>WorkWell</fullName>
+                <default>false</default>
+                <label>WorkWell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

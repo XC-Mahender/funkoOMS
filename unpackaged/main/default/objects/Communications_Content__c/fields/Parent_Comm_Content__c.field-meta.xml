@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Comm_Content__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Parent Comm Content</label>
+    <referenceTo>Communications_Content__c</referenceTo>
+    <relationshipLabel>Child Communications Content</relationshipLabel>
+    <relationshipName>Communications_Content</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

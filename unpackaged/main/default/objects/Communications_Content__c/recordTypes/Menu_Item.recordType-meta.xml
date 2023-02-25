@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Menu_Item</fullName>
+    <active>true</active>
+    <label>Menu Item</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Store Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Updates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotional Offers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruitment %26 Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkWell</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workflow_stage__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Published</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
